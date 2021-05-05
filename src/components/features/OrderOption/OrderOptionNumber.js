@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './Orderoption.scss';
+import styles from './OrderOption.scss';
 import {formatPrice} from '../../../utils/formatPrice';
 
 const OrderOptionNumber = ({currentValue, limits, setOptionValue, price}) => (
